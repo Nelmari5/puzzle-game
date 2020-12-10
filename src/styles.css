@@ -1,0 +1,55 @@
+body {
+  background: #1bbed1;
+  text-align: center;
+}
+.tile1, .tile2, .tile3, .tile4, .tile5, .tile6, .tile7, .tile8, .tile9, .tile10 , .tile11, .tile12, .tile13, .tile14, .tile15, .tile16 {
+  display: table-cell;
+  width: 125px;
+  height: 125px;
+  border: 1px solid white;
+  background: url('../src/assets/images/digi.png');
+  cursor: pointer;
+}
+  
+.tile1 {background-position: 0px 0px;}
+.tile2 {background-position: -190px 0px;}
+.tile3 {background-position: -250px 0px;}
+.tile4 {background-position: -376px 0px;}
+.tile5 {background-position: 1px -130px;}
+.tile6 {background-position: -122px -130px;}
+.tile7 {background-position: -248px -130px;}
+.tile8 {background-position: -377px -130px;}
+.tile9 {background-position: 1px -260px;}
+.tile10 {background-position: -122px -260px;}
+.tile11 {background-position: 252px -260px;}
+.tile12 {background-position: 123px -260px;}
+.tile13 {background-position: 0px 124px;}
+.tile14 {background-position: -140px 124px;}
+.tile15 {background-position: -219px 124px;}
+.tile16 {background: white; cursor: default;}
+
+#table {
+  display: table;
+  margin: 0 auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  margin-top: 10%;
+}
+
+button {
+  border: 1.5px #fff solid;
+  color: #fff;
+  background: none;
+  padding: 1em 2.5em;
+  border-radius: 53px;
+  margin-top: 3%;
+
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12), 0 3px 1px -2px rgba(0,0,0,.2);
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12), 0 3px 1px -2px rgba(0,0,0,.2);
+}
+button:hover {
+  transition: box-shadow .25s,-webkit-box-shadow .25s;
+  -webkit-box-shadow: 0 8px 17px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+  box-shadow: 0 8px 17px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+}
